@@ -113,7 +113,7 @@ public class CursofullstackApplication implements CommandLineRunner {
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 
-		Pedido ped1 = new Pedido(null, sdf.parse("30/09/20217 10:32"), cli1, e1);
+		Pedido ped1 = new Pedido(null, sdf.parse("30/09/2021 10:32"), cli1, e1);
 		Pedido ped2 = new Pedido(null, sdf.parse("10/10/20217 19:32"), cli1, e2);
 
 		Pagamento pagto1 = new PagamentoComCartao(null, EstadoPagamento.QUITADO, ped1, 6);
